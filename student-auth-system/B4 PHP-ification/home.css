@@ -1,0 +1,16 @@
+body{
+    background-color: gray;
+    display: block;
+}
+.nav-bar{
+    padding: 5px;
+}
+
+main{
+    background-color: aqua;
+    padding: 5px;
+    width: 100vh;
+    border: black solid 1px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px black;
+}

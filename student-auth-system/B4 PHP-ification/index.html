@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>jogger</title>
+</head>
+<body>
+    <div class="container">
+        <form action="submit.php" method="post" class="form-box"><!--action is what is done with from,prepre for routing(URL) or submit to server, post private, get public-->
+            <header>Sign in</header>
+            <input type="text" name="username"  placeholder="Email" required><!--in put tag dont close-->
+            <input type="password" name="password" placeholder="Password" required>
+            <div class="btn-cont"><input type="button" name="sign_in" value="Sign in" id="btn-signin"></div>
+            <label for="reg-ankor">Don't have an account ?</label>
+            <a href="#reg-form" id="reg-ankor">register</a>
+        </form>
+    </div>
+    <div class="container">
+        <form action="submit.php" method="post" class="form-box" id="reg-form"><!--action is what is done with from,prepre for routing(URL) or submit to server, post private, get public-->
+            <header>Sign in</header>
+            <input type="text" name="user-name"  placeholder="Name" required>
+            <input type="text" name="user-surname"  placeholder="Surname"required>
+            <input type="number" name="student-no"  placeholder="StudentNumber" required>
+            <input type="tel" name="user-tel" placeholder="Contact No." required>
+            <input type="text" name = "module-code" placeholder="Module code"required>
+            <input type="text" name="user-mail"  placeholder="Email"><!--in put tag dont close-->
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="password" name="conf-password" placeholder="Confirm password" required>
+            <div class="btn-cont"><input type="button" name="register" value="register" id="btn-signin"></div>
+            <label for="reg-ankor">already have an accunt ?</label>
+            <a href="" id="reg-ankor">Sign in</a>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
